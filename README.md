@@ -4,6 +4,7 @@
 # petri@laakkonen.io
 
 Generate domains using the given word list (database) and domain extension.
+
 Example:
 - collection: English dictionary
 - domain extension: io
