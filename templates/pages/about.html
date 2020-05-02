@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}About page{% endblock %}
+
+{% block content %}
+<h1>About</h1>
+
+<p>Generate domains using the given word list and domain extension.</p>
+
+<p>
+    Example:</br>
+    - collection: English dictionary</br>
+    - domain extension: io</br>
+    API:</br>
+    <a href="../words/domains/?c=en&ext=io">[domain]/words/domains/?c=en&ext=io</a></br></br>
+    e.g. output:</br>
+    ...</br>
+    scenar.io</br>
+    scorp.io</br>
+    ...</br></br>
+    Data:</br>
+    - English dictionary</br>
+    - Finnish dictionary</br>
+</p>
+
+{% endblock content %}
