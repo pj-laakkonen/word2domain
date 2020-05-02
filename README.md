@@ -7,8 +7,8 @@ Generate domains using the given word list (database) and domain extension.
 Example:
 - collection: English dictionary
 - domain extension: io
-API:
-[domain]/words/domains/?c=en&ext=io
+
+API: [domain]/words/domains/?c=en&ext=io
 
 e.g. output:
 ...
@@ -21,3 +21,4 @@ Data:
 https://github.com/dwyl/english-words
 - Finnish dictionary
 http://kaino.kotus.fi/sanat/nykysuomi/
+
